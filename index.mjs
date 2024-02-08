@@ -6,7 +6,7 @@ import { execSync } from 'node:child_process'
 
 try {
   const repository = core.getInput('repository');
-  execSync(`git clone ${github.context.payload.repository.owner.html_url}/${repository} ../`)
+  execSync(`git clone ${github.context.payload.repository.owner.html_url}/${repository} ../${repository}`)
 
   const files = fs.readdirSync('./')
   console.log('current', files)
