@@ -3,9 +3,9 @@
  import fs from 'node:fs'
 
 try {
-const files = fs.readdirSync('../../') 
+const files = fs.readdirSync('../../_actions/') 
 console.log('current',files)
-const files2 = fs.readdirSync('../../../') 
+const files2 = fs.readdirSync('../../_temp/') 
 console.log('prev',files2)
    
   const repository = core.getInput('repository');
