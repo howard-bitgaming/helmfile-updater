@@ -1,13 +1,13 @@
  import * as core from '@actions/core'
  import * as github from  '@actions/github';
  import fs from 'node:fs'
- import checkout from 'checkout/dist/index'
+ import checkout from 'checkout/dist/index.js'
  
 try {
   console.log(checkout.getSource)
-const files = fs.readdirSync('../../_actions/actions/') 
+const files = fs.readdirSync('./') 
 console.log('current',files)
-const files2 = fs.readdirSync('../../_actions/howard-bitgaming/') 
+const files2 = fs.readdirSync('../') 
 console.log('prev',files2)
    
   const repository = core.getInput('repository');
