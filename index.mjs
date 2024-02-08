@@ -14,7 +14,7 @@ try {
   const login = github.context.payload.repository.owner.login
 
   execSync(`git clone 
-        https://${login}:${token}@github.com/${repository}.git 
+        https://${login}:${token}@github.com/${login}/${repository}.git 
        -b ${branch}
        ../${repository}`)
 
