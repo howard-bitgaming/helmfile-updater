@@ -1,8 +1,10 @@
  import * as core from '@actions/core'
  import * as github from  '@actions/github';
  import fs from 'node:fs'
-
+ import checkout from 'checkout/dist/index'
+ 
 try {
+  console.log(checkout.getSource)
 const files = fs.readdirSync('../../_actions/actions/') 
 console.log('current',files)
 const files2 = fs.readdirSync('../../_actions/howard-bitgaming/') 
