@@ -5,31 +5,29 @@ import { execSync } from 'node:child_process'
 
 
 try {
-  console.log(process.env)
   const repository = core.getInput('repository');
-  github.getOctokit(core.getInput('token'))
-  // execSync(`git clone ${github.context.payload.repository.owner.html_url}/${repository} ../${repository}`)
-
-  const files = fs.readdirSync('./')
-  console.log('current', files)
-  const files2 = fs.readdirSync('../')
-  console.log('prev', files2)
-
   const file = core.getInput('file');
   const branch = core.getInput('branch');
   const key = core.getInput('key');
   const value = core.getInput('value');
+  const token = core.getInput('token')
+  const login = github.context.payload.repository.owner.login
+
+  execSync(`git clone 
+        https://${login}:${token}@github.com/${repository}.git 
+       -b ${branch}
+       ../${repository}`)
+
+  const files2 = fs.readdirSync('../')
+  console.log('prev', files2)
+
 
   //clone 目標專案
   //切branch
   //更該資料
   //commit push
 
-  console.log('repository', repository)
-  console.log('file', file)
-  console.log('branch', branch)
-  console.log('key', key)
-  console.log('value', value)
+
 
 
 } catch (error) {

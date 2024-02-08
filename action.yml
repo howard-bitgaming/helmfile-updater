@@ -1,6 +1,10 @@
 name: 'helmfile updater'
 description: 'lazy guys action'
 inputs:
+  token:
+    description: 'github token'
+    required: true
+    default: ${{ github.token }}
   repository:
     description: 'target repository'
     required: true
