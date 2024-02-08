@@ -13,7 +13,7 @@ try {
   const token = core.getInput('token')
   const login = github.context.payload.repository.owner.login
 
-  execSync(`git clone  https://${token}@github.com/${login}/${repository} -b ${branch} ../${repository}`)
+  execSync(`git clone https://${token}@github.com/${login}/${repository}.git -b ${branch} ../${repository}`)
 
   const files2 = fs.readdirSync('../')
   console.log('prev', files2)
