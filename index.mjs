@@ -1,8 +1,13 @@
  import * as core from '@actions/core'
- import github from  '@actions/github';
+ import * as github from  '@actions/github';
+ import fs from 'node:fs'
 
 try {
-    
+const files = fs.readdirSync('./') 
+console.log('current',files)
+const files2 = fs.readdirSync('../') 
+console.log('prev',files2)
+   
   const repository = core.getInput('repository');
   const file = core.getInput('file');
   const branch = core.getInput('branch');
