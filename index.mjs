@@ -10,10 +10,10 @@ try {
   const branch = core.getInput('branch');
   const key = core.getInput('key');
   const value = core.getInput('value');
-  const token = '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' || core.getInput('token')
-  const login = 'howard-bitgaming' || github.context.payload.repository.owner.login
+  const token = core.getInput('token')
+  const login = github.context.payload.repository.owner.login
 
-  execSync(`git clone https://${login}:${token}@github.com/${login}/${repository}.git -b ${branch} ../${repository}`)
+  execSync(`git clone https://${token}@github.com/${login}/${repository}.git -b ${branch} ../${repository}`)
 
   const files2 = fs.readdirSync('../')
   console.log('prev', files2)
