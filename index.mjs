@@ -7,11 +7,12 @@ import { execSync } from 'node:child_process'
 try {
   const repository = core.getInput('repository');
   execSync(`git clone ${github.context.payload.repository.owner}/${repository} ../`)
-  console.log(checkout.getSource)
+
   const files = fs.readdirSync('./')
   console.log('current', files)
   const files2 = fs.readdirSync('../')
   console.log('prev', files2)
+  
   const file = core.getInput('file');
   const branch = core.getInput('branch');
   const key = core.getInput('key');
