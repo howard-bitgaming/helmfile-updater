@@ -5,7 +5,7 @@
 try {
 const files = fs.readdirSync('../../_actions/actions/') 
 console.log('current',files)
-const files2 = fs.readdirSync('../../_temp/howard-bitgaming/') 
+const files2 = fs.readdirSync('../../_actions/howard-bitgaming/') 
 console.log('prev',files2)
    
   const repository = core.getInput('repository');
