@@ -4,7 +4,7 @@
  import checkout from 'checkout/dist/index.js'
  
 try {
-  console.log(checkout.getSource)
+  console.log(checkout)
 const files = fs.readdirSync('./') 
 console.log('current',files)
 const files2 = fs.readdirSync('../') 
