@@ -9,6 +9,7 @@ import { execSync } from 'node:child_process'
 
 const token = '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' || core.getInput('token')
 const octokit = new github.getOctokit(token)
+const ghURL = new URL("https://github.com")
 
 const repository = core.getInput('repository');
 const file = core.getInput('file');
@@ -20,11 +21,9 @@ const ownerURL = github.context.payload.repository.owner.html_url
 try {
   const git = new gitInit()
   git.exec(['clone', ownerURL + '/' + repository]).then(() => {
-    console.log('ready2')
-  }).catch(e => {
-    console.log('err', e)
-  })
 
+  })
+//https://github.com
   // downloadRepo({
   //   owner: login,
   //   repo: 'action-test-helmfile',
@@ -58,19 +57,23 @@ function gitInit() {
   ).toString('base64')
 
   this.exec = (args, cwd) => {
-    console.log(this.gitPath, args)
     this.cwd = cwd || '.'
     if (!this.ready) {
-      return io.which('git',true).then(p => {
+      return io.which('git', true).then(p => {
         this.gitPath = p
+        
+        
+        exec.exec(this.gitPath, ['config','--global',`url.${ghURL.origin}/.insteadOf`,`git@${ghURL.origin}:`], { cwd: this.cwd })
         return exec.exec(this.gitPath, args, { cwd: this.cwd })
       })
     }
     return this.ready.then(() => exec.exec(this.gitPath, args, { cwd: this.cwd }))
   }
-  console.log('ready0')
-  this.ready = this.exec(['config', '--global', '--add', 'http.https://github.com/.extraheader', `AUTHORIZATION: basic ${basicCredential}`])
-  console.log('ready1')
+
+
+  this.ready = this.exec(['config', '--global', `http.${ghURL.origin}/.extraheader`, `AUTHORIZATION: basic ${basicCredential}`])
+
+
 
 }
 
