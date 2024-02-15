@@ -16,7 +16,7 @@ const branch = core.getInput('branch');
 const key = core.getInput('key');
 const value = core.getInput('value');
 const login = github.context.payload.repository.owner.login
-const ownerURL = github.context.payload.owner.html_url
+const ownerURL = github.context.payload.repository.owner.html_url
 try {
   const git = new gitInit()
   git.exec(['git', 'clone', ownerURL + '/' + repository])
