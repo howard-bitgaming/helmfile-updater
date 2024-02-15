@@ -54,7 +54,7 @@ function gitInit() {
   this.gitPath = io.which('git')
   this.exec = (args, cwd) => {
     this.cwd = cwd
-    return this.ready().then(() => exec.exec(gitPath, args, { cwd }))
+    return this.ready.then(() => exec.exec(gitPath, args, { cwd }))
   }
   this.ready = this.exec(['config', '--global', '--add', 'http.https://github.com/.extraheader', `AUTHORIZATION: basic ${basicCredential}`])
 }
