@@ -20,6 +20,7 @@ const ownerURL = github.context.payload.repository.owner.html_url
 try {
   const git = new gitInit()
   git.exec(['git', 'clone', ownerURL + '/' + repository])
+  console.log('ready2')
   // downloadRepo({
   //   owner: login,
   //   repo: 'action-test-helmfile',
@@ -57,7 +58,10 @@ function gitInit() {
     if(!this.ready) return exec.exec(this.gitPath, args, { cwd:this.cwd })
     return this.ready.then(() => exec.exec(this.gitPath, args, { cwd:this.cwd }))
   }
+  console.log('ready0')
   this.ready = this.exec(['config', '--global', '--add', 'http.https://github.com/.extraheader', `AUTHORIZATION: basic ${basicCredential}`])
+  console.log('ready1')
+
 }
 
 function downloadRepo(opts) {
