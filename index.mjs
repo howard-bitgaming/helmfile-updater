@@ -19,8 +19,12 @@ const login = github.context.payload.repository.owner.login
 const ownerURL = github.context.payload.repository.owner.html_url
 try {
   const git = new gitInit()
-  git.exec(['git', 'clone', ownerURL + '/' + repository])
-  console.log('ready2')
+  git.exec(['git', 'clone', ownerURL + '/' + repository]).then(()=>{
+    console.log('ready2')
+  }).catch(e=>{
+    console.log('err',e)
+  })
+
   // downloadRepo({
   //   owner: login,
   //   repo: 'action-test-helmfile',
