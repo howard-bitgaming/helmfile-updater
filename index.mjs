@@ -61,7 +61,7 @@ function gitInit() {
     console.log(this.gitPath, args)
     this.cwd = cwd || '.'
     if (!this.ready) {
-      return io.which('git').then(p => {
+      return io.which('git',true).then(p => {
         this.gitPath = p
         return exec.exec(this.gitPath, args, { cwd: this.cwd })
       })
