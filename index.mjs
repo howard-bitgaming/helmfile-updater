@@ -19,10 +19,10 @@ const login = github.context.payload.repository.owner.login
 const ownerURL = github.context.payload.repository.owner.html_url
 try {
   const git = new gitInit()
-  git.exec(['clone', ownerURL + '/' + repository]).then(()=>{
+  git.exec(['clone', ownerURL + '/' + repository]).then(() => {
     console.log('ready2')
-  }).catch(e=>{
-    console.log('err',e)
+  }).catch(e => {
+    console.log('err', e)
   })
 
   // downloadRepo({
@@ -56,12 +56,17 @@ function gitInit() {
     `x-access-token:${token}`,
     'utf8'
   ).toString('base64')
-  this.gitPath = io.which('git')
+
   this.exec = (args, cwd) => {
-    console.log(this.gitPath,args)
+    console.log(this.gitPath, args)
     this.cwd = cwd || '.'
-    if(!this.ready) return exec.exec(this.gitPath, args, { cwd:this.cwd })
-    return this.ready.then(() => exec.exec(this.gitPath, args, { cwd:this.cwd }))
+    if (!this.ready) {
+      return io.which('git').then(p => {
+        this.gitPath = p
+        return exec.exec(this.gitPath, args, { cwd: this.cwd })
+      })
+    }
+    return this.ready.then(() => exec.exec(this.gitPath, args, { cwd: this.cwd }))
   }
   console.log('ready0')
   this.ready = this.exec(['config', '--global', '--add', 'http.https://github.com/.extraheader', `AUTHORIZATION: basic ${basicCredential}`])
