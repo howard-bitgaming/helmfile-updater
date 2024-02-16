@@ -7,7 +7,7 @@ import fs from 'node:fs'
 import path from 'node:path'
 import { execSync } from 'node:child_process'
 
-const token = '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' || core.getInput('token')
+const token = core.getInput('token')
 const octokit = new github.getOctokit(token)
 const ghURL = new URL("https://github.com")
 
@@ -20,10 +20,11 @@ const login = github.context.payload.repository.owner.login
 const ownerURL = github.context.payload.repository.owner.html_url
 try {
   const git = new gitInit()
-  git.exec(['clone', ownerURL + '/' + repository]).then(() => {
-
+  git.ready(() => {
+    return git.exec(['clone', ownerURL + '/' + repository])
   })
-//https://github.com
+
+  //https://github.com
   // downloadRepo({
   //   owner: login,
   //   repo: 'action-test-helmfile',
@@ -55,23 +56,16 @@ function gitInit() {
     `x-access-token:${token}`,
     'utf8'
   ).toString('base64')
-
+  this.ready = io.which('git', true).then(p => {
+    this.gitPath = p
+    return this.exec(['config', '--global', `http.${ghURL.origin}/.extraheader`, `AUTHORIZATION: basic ${basicCredential}`])
+  })
   this.exec = (args, cwd) => {
     this.cwd = cwd || '.'
-    if (!this.ready) {
-      return io.which('git', true).then(p => {
-        this.gitPath = p
-        
-        
-        exec.exec(this.gitPath, ['config','--global',`url.${ghURL.origin}/.insteadOf`,`git@${ghURL.origin}:`], { cwd: this.cwd })
-        return exec.exec(this.gitPath, args, { cwd: this.cwd })
-      })
-    }
-    return this.ready.then(() => exec.exec(this.gitPath, args, { cwd: this.cwd }))
+    return exec.exec(this.gitPath, args, { cwd: this.cwd })
   }
 
 
-  this.ready = this.exec(['config', '--global', `http.${ghURL.origin}/.extraheader`, `AUTHORIZATION: basic ${basicCredential}`])
 
 
 
