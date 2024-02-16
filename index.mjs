@@ -21,7 +21,14 @@ const ownerURL = github.context.payload.repository.owner.html_url
 try {
   const git = new gitInit()
   git.ready.then(() => {
-    return git.exec(['clone', ownerURL + '/' + repository])
+    // return git.exec(['clone', ownerURL + '/' + repository])
+    return git.exec(['init'])
+  }).then(() => {
+    return git.exec(['config', '--list'])
+  }).then(() => {
+    return git.exec(['remote', 'add', 'origin', ownerURL + '/' + repository])
+  }).then(() => {
+    return git.exec(['fetch','origin'])
   })
 
   //https://github.com
