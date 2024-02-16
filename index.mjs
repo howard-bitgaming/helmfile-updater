@@ -22,7 +22,7 @@ try {
   const git = new gitInit()
   git.ready.then(() => {
     // return git.exec(['clone', ownerURL + '/' + repository])
-    return git.exec(['init'])
+    return git.exec(['init'],{cwd:path.resolve(['..'])})
   }).then(() => {
     return git.exec(['config', '--list'])
   }).then(() => {
