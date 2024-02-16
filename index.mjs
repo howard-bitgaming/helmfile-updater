@@ -58,7 +58,8 @@ try {
   core.setFailed(error.message);
 }
 
-function gitInit() {
+function gitInit(cwd = '.') {
+  this.cwd = cwd
   const basicCredential = Buffer.from(
     `x-access-token:${token}`,
     'utf8'
