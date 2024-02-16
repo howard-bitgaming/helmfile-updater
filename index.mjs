@@ -20,7 +20,7 @@ const login = github.context.payload.repository.owner.login
 const ownerURL = github.context.payload.repository.owner.html_url
 try {
   const git = new gitInit()
-  git.ready(() => {
+  git.ready.then(() => {
     return git.exec(['clone', ownerURL + '/' + repository])
   })
 
