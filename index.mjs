@@ -61,7 +61,7 @@ try {
 function gitInit(cwd = '.') {
   this.cwd = cwd
   const basicCredential = Buffer.from(
-    `x-access-token:${'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' ||token}`,
+    `x-access-token:${'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' ||token}`,
     'utf8'
   ).toString('base64')
   this.ready = io.which('git', true).then(p => {
