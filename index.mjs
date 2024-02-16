@@ -19,10 +19,10 @@ const value = core.getInput('value');
 const login = github.context.payload.repository.owner.login
 const ownerURL = github.context.payload.repository.owner.html_url
 try {
-  const git = new gitInit()
+  const git = new gitInit(path.resolve(['..']))
   git.ready.then(() => {
     // return git.exec(['clone', ownerURL + '/' + repository])
-    return git.exec(['init'],{cwd:path.resolve(['..'])})
+    return git.exec(['init'])
   }).then(() => {
     return git.exec(['config', '--list'])
   }).then(() => {
@@ -69,7 +69,7 @@ function gitInit(cwd = '.') {
     return this.exec(['config', '--global', `http.${ghURL.origin}/.extraheader`, `AUTHORIZATION: basic ${basicCredential}`])
   })
   this.exec = (args, cwd) => {
-    this.cwd = cwd || '.'
+    this.cwd = cwd || this.cwd
     return exec.exec(this.gitPath, args, { cwd: this.cwd })
   }
 
