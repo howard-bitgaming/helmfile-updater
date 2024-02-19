@@ -4,7 +4,7 @@ import fs from 'node:fs'
 
 const file = fs.readFileSync('./test/test.yml', 'utf8')
 const key = 'releases.*[name $= frontend].set.*[name === image\\.tag].value'
-const  value =  "12341"
+const  value =  "1.234.1"
 
 const target = yaml.parse(file)
 
