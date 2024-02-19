@@ -15,9 +15,5 @@ inputs:
     description: 'set value'
     required: true
 runs:
-  using: "composite"
-  steps:
-    - run: node ${{ github.action_path }}/index.mjs
-      shell: bash
-    - run: git commit -a
-      shell: bash
+  using: 'node20'
+  main: 'index.mjs'
