@@ -1,35 +1,30 @@
-# Hello world javascript action
+## Requirement
+* commit auth token
+* after actions/checkout
 
-This action prints "Hello World" or "Hello" + the name of a person to greet to the log.
+## Key setting
 
-## Inputs
-
-### `who-to-greet`
-
-**Required** The name of the person to greet. Default `"World"`.
-
-## Outputs
-
-### `time`
-
-The time we greeted you.
+[object-selectors](https://www.npmjs.com/package/object-selectors#examples)
 
 ## Example usage
 
 ```yaml
-on: [push]
+on: [workflow_dispatch]
 
 jobs:
   hello_world_job:
-    runs-on: ubuntu-latest
-    name: A job to say hello
+    runs-on: ubuntu-latest    
     steps:
-      - name: Hello world action step
-        id: hello
-        uses: howard-bitgaming/helmfile-updater@v1.0
+      - name: 檢查分支
+        uses: actions/checkout@v4
         with:
-          who-to-greet: 'Mona the Octocat'
-      # Use the output from the `hello` step
-      - name: Get the output time
-        run: echo "The time was ${{ steps.hello.outputs.time }}"
+          fetch-depth: '0'
+    steps:
+      - name: 觸發action
+        uses: howard-bitgaming/helmfile-updater@main
+        with:
+          token: ${{secrets.TEST_TOKEN}}
+          file: './folder/sub/helmfile.yaml'
+          key: 'releases.*[name $= frontend].set.*[name $= tag].value'
+          value: '123.445.22'
 ```
