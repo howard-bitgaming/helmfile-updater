@@ -39,7 +39,7 @@ try {
 
     }).then(() => {
 
-      return exec.exec(git, ['push'])
+      return exec.exec(git, ['fetch'])
     })
   })
 
