@@ -35,7 +35,7 @@ try {
         `x-access-token:${token}`,
         'utf8'
       ).toString('base64')
-      return exec.exec(git,['config', '--global', `http.https://github.com/.extraheader`, `AUTHORIZATION: basic ${basicCredential}`])
+      return exec.exec(git,['config', '--local', `http.https://github.com/.extraheader`, `AUTHORIZATION: basic ${basicCredential}`])
 
     }).then(() => {
 
