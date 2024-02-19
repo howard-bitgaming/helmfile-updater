@@ -5,14 +5,8 @@ inputs:
     description: 'github token'
     required: true
     default: ${{ github.token }}
-  repository:
-    description: 'target repository'
-    required: true
   file:
     description: 'target file'
-    required: true
-  branch:
-    description: 'target branch'
     required: true
   key:
     description: 'object key'
