@@ -17,6 +17,7 @@ const value = core.getInput('value');
 
 try {
   const target = yamljs.load(file)
+  core.debug(`object ${JSON.stringify(target)}`)
   core.debug(`set ${key} to ${value}`)
   set(key, value)
   const targetYamlStr = yamljs.stringify(target, 2)
