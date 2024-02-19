@@ -23,17 +23,6 @@ try {
   set(key,target, value)
   const targetYamlStr = yaml.stringify(target, 2)
   fs.writeFileSync(file,targetYamlStr)
-  io.which('git').then(git=>{
-    exec.exec(git,['config', 'user.name', 'github-actions']).then(()=>{
-      return exec.exec(git,['config', 'user.email', 'github-actions@github.com'])
-    }).then(()=>{
-      return exec.exec(git,['add', '.'])
-    }).then(()=>{
-      return exec.exec(git,['commit', '-m',`set ${key} to ${value}`])
-    }).then(()=>{
-      // return exec.exec(git,['push'])
-    })
-  })
   
 } catch (error) {
   core.setFailed(error.message);
