@@ -19,7 +19,7 @@ try {
   const target = yamljs.load(file)
   core.debug(`object ${JSON.stringify(target)}`)
   core.debug(`set ${key} to ${value}`)
-  set(key, value)
+  set(key,target, value)
   const targetYamlStr = yamljs.stringify(target, 2)
   fs.writeFileSync(file,targetYamlStr)
   io.which('git').then(git=>{
