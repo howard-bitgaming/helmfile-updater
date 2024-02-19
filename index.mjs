@@ -31,7 +31,7 @@ try {
     }).then(()=>{
       return exec.exec(git,['commit', '-m',`set ${key} to ${value}`])
     }).then(()=>{
-      return exec.exec(git,['push'])
+      // return exec.exec(git,['push'])
     })
   })
   
