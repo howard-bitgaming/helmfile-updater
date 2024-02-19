@@ -1,0 +1,57 @@
+{
+    "root": true,
+    "env": {
+        "node": true,
+        "es2021": true
+    },
+    "plugins": [
+    ],
+    "extends": [
+        "eslint:recommended"
+    ],
+    "parserOptions": {
+        "ecmaVersion": "latest",
+        "sourceType": "module"
+    },
+    "rules": {
+        "no-prototype-builtins": 0,
+        "no-var": 1,
+        "no-trailing-spaces": 1
+    },
+    "overrides": [
+        {
+            "files": [ "*.spec.js" ],
+            
+            "env": { "mocha": true },
+            "plugins": [
+                "mocha",
+                "chai-expect"
+            ],
+            "rules": {
+                "mocha/no-sibling-hooks": "off",
+                "mocha/max-top-level-suites": "off"
+            },
+           "extends": [
+                "plugin:mocha/recommended",
+                "plugin:chai-expect/recommended"
+            ],
+            "globals": {
+                "describe": "readonly",
+                "context": "readonly",
+                "before": "readonly",
+                "beforeEach": "readonly",
+                "after": "readonly",
+                "afterEach": "readonly",
+                "it": "readonly",
+                "expect": "readonly"
+            }
+        },
+        {
+            "files": [ "*.peg" ],
+            
+            "plugins": [ "@peggyjs" ],
+            "extends": ["plugin:@peggyjs/recommended"]
+        }
+
+    ]
+}

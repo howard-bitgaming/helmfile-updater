@@ -1,0 +1,2100 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ex",
+				"expected"
+			],
+			[
+				"GameO",
+				"GameObjectProvider"
+			],
+			[
+				"Pl",
+				"PlayerProvider.PlayerProcurer.Request"
+			],
+			[
+				"P",
+				"PlayerProvider.PlayerProcurer.Request"
+			],
+			[
+				"prc",
+				"procurer"
+			],
+			[
+				"Ply",
+				"PlayerProvider.PlayerProcurer.Request"
+			],
+			[
+				"Pol",
+				"PlayerProvider.PlayerProcurer.Request"
+			],
+			[
+				"Player",
+				"PlayerProvider.PlayerProcurer.Request"
+			],
+			[
+				"Pr",
+				"PROMISE"
+			],
+			[
+				"Pla",
+				"PlayerProvider.PlayerProcurer"
+			],
+			[
+				"desig",
+				"designator"
+			],
+			[
+				"des",
+				"designator"
+			],
+			[
+				"Play",
+				"PlayerProvider"
+			],
+			[
+				"design",
+				"designator2"
+			],
+			[
+				"desi",
+				"designator1"
+			],
+			[
+				"deson",
+				"designator2"
+			],
+			[
+				"orcure",
+				"procurer"
+			],
+			[
+				"recovery",
+				"recoveryInitiated"
+			],
+			[
+				"view",
+				"viewCreationFinished"
+			],
+			[
+				"viewC",
+				"viewCreationStarted"
+			],
+			[
+				"vew",
+				"viewCreationStarted"
+			],
+			[
+				"call",
+				"callThrough"
+			],
+			[
+				"CAC",
+				"CACHE_DATA"
+			],
+			[
+				"CACHE",
+				"CACHE_DATA"
+			],
+			[
+				"out",
+				"outdatedError"
+			],
+			[
+				"ds",
+				"designatorBase"
+			],
+			[
+				"GamePara",
+				"GameParams.data"
+			],
+			[
+				"vis",
+				"previousVisibility"
+			],
+			[
+				"SP",
+				"SPACING"
+			],
+			[
+				"avail",
+				"availTop"
+			],
+			[
+				"get",
+				"getBoundingClientRect"
+			],
+			[
+				"transla",
+				"translateY"
+			],
+			[
+				"Gam",
+				"GameObject"
+			],
+			[
+				"PA",
+				"PAAA002_Test2"
+			],
+			[
+				"padd",
+				"padding-horizontal"
+			],
+			[
+				"Armo",
+				"ArmorViewer"
+			],
+			[
+				"MIN_LENG",
+				"MIN_LENGTH_SQ"
+			],
+			[
+				"qu",
+				"querySelector"
+			],
+			[
+				"topic-lo",
+				"topic-loader-vanish"
+			],
+			[
+				"0",
+				"0e-6"
+			],
+			[
+				"trai",
+				"triangle"
+			],
+			[
+				"bri",
+				"briefingLock"
+			],
+			[
+				"brief",
+				"briefingLock"
+			],
+			[
+				"oter",
+				"otherId"
+			],
+			[
+				"warning",
+				"warning-moderate"
+			],
+			[
+				"war",
+				"warning-moderate-severe-light"
+			],
+			[
+				"w",
+				"warning-moderate-light"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"side",
+				"page-break-inside"
+			],
+			[
+				"exten",
+				"extending"
+			],
+			[
+				"FADE",
+				"FADE_OUT"
+			],
+			[
+				"bbo",
+				"bboxTri"
+			],
+			[
+				"cor",
+				"cornflowerblue"
+			],
+			[
+				"rec",
+				"recovered"
+			],
+			[
+				"wa",
+				"warning-moderate"
+			],
+			[
+				"conv",
+				"convertVertex"
+			],
+			[
+				"verte",
+				"vertices"
+			],
+			[
+				"high",
+				"highlight-transition-time"
+			],
+			[
+				"rel",
+				"relevantEdge"
+			],
+			[
+				"re",
+				"relativeTop"
+			],
+			[
+				"que",
+				"querySelectorAll"
+			],
+			[
+				"E",
+				"EVT_BRIEFING_TOPIC"
+			],
+			[
+				"EV",
+				"EVT_BRIEFING_START"
+			],
+			[
+				"EVT",
+				"EVT_BRIEFING_TOPIC"
+			],
+			[
+				"rend",
+				"renderHtml"
+			],
+			[
+				"Derived",
+				"DerivedFromTopic"
+			],
+			[
+				"game",
+				"gameObjectFactory"
+			],
+			[
+				"cla",
+				"calledWith"
+			],
+			[
+				"DEFAUL",
+				"DEFAULT_FILTERS"
+			],
+			[
+				"GameOjb",
+				"GameObjectFactory"
+			],
+			[
+				"Game",
+				"GameObjectFactory"
+			],
+			[
+				"border-le",
+				"border-left-style"
+			],
+			[
+				"NO",
+				"NOTCH_WIDTH"
+			],
+			[
+				"NOT",
+				"NOTCH_HEIGHT"
+			],
+			[
+				"player",
+				"playerKnifefightingValue"
+			],
+			[
+				"bottom",
+				"border-bottom"
+			],
+			[
+				"con",
+				"concealments"
+			],
+			[
+				"include",
+				"includeOwnPropertiesByDefault"
+			],
+			[
+				"ownPr",
+				"ownProperty"
+			],
+			[
+				"arti",
+				"artilleryValue"
+			],
+			[
+				"Eng",
+				"EngineValue"
+			],
+			[
+				"Ar",
+				"ArtilleryValue"
+			],
+			[
+				"AB1",
+				"AB1_Engine"
+			],
+			[
+				"Species",
+				"Species2"
+			],
+			[
+				"consuamble",
+				"consumable1"
+			],
+			[
+				"sho",
+				"ShortVersion"
+			],
+			[
+				"wr",
+				"workspace"
+			],
+			[
+				"Q",
+				"QUARTERSBRIEF"
+			],
+			[
+				"Create",
+				"CreateCmdFileCmdLine"
+			],
+			[
+				"APPL",
+				"APPLICATIONFOLDER"
+			],
+			[
+				"NOde",
+				"NODE_MODULES_FOLDER"
+			],
+			[
+				"QU",
+				"QUARTERSBRIEF_CONFIG_FOLDER"
+			],
+			[
+				"Prod",
+				"ProductName"
+			],
+			[
+				"NODEJS",
+				"NODEJS_VERSION"
+			],
+			[
+				"Comp",
+				"ComponentRef"
+			],
+			[
+				"Unknw",
+				"Unknown"
+			],
+			[
+				"conus",
+				"consumableType"
+			],
+			[
+				"la",
+				"Labeler"
+			],
+			[
+				"labe",
+				"labelFunction"
+			],
+			[
+				"IDS",
+				"IDS_DOCK_CONSUME_PCY001_WITHTITLEID"
+			],
+			[
+				"ID",
+				"IDS_DOCK_CONSUME_PCY001_Type1"
+			],
+			[
+				"W",
+				"WithTitleID"
+			],
+			[
+				"labler",
+				"labeler"
+			],
+			[
+				"cs",
+				"const"
+			],
+			[
+				"consumabel",
+				"consumableType"
+			],
+			[
+				"L",
+				"DEFAULT_LABELER"
+			],
+			[
+				"LA",
+				"LABEL_INTERPOLATED"
+			],
+			[
+				"skillN",
+				"skillName"
+			],
+			[
+				"templ",
+				"templateData"
+			],
+			[
+				"ass",
+				"assertModuleComponentsResolveUnambiguously"
+			],
+			[
+				"as",
+				"assertInvariants"
+			],
+			[
+				"consu",
+				"consumableType"
+			],
+			[
+				"Ab",
+				"AbilitySlot1"
+			],
+			[
+				"cons",
+				"consumables"
+			],
+			[
+				"Con",
+				"Consumables"
+			],
+			[
+				"Consu",
+				"Consumable"
+			],
+			[
+				"unkno",
+				"unknown_consumable_type"
+			],
+			[
+				"bor",
+				"border-width"
+			],
+			[
+				"G",
+				"Gun2"
+			],
+			[
+				"getModu",
+				"getModuleConstructor"
+			],
+			[
+				"over",
+				"overmatchThreshold"
+			],
+			[
+				"steal",
+				"stealthwarn-color-severe"
+			],
+			[
+				"s",
+				"stealthwarn-color-moderate"
+			],
+			[
+				"background",
+				"background-color-player"
+			],
+			[
+				"backr",
+				"background-color-ally"
+			],
+			[
+				"bacg",
+				"background-color-enemy"
+			],
+			[
+				"list",
+				"list-style-type"
+			],
+			[
+				"backgr",
+				"background-color-player"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					""
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Traditional"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"PdfLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"XeLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"LuaLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder - PdfLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder - XeLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder - LuaLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Script Builder"
+				]
+			],
+			[
+				"Packages/LaTeXTools/LaTeX.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 236.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"move",
+				"File: Move"
+			],
+			[
+				"rename",
+				"Rename File"
+			],
+			[
+				"comm ad",
+				"Git: Amend Commit"
+			],
+			[
+				"amend",
+				"Git: Amend Commit"
+			],
+			[
+				"rena",
+				"Rename File"
+			],
+			[
+				"pi",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Package Control: Remove Package"
+			],
+			[
+				"exp",
+				"Selection: Expand to Indentation"
+			],
+			[
+				"ren",
+				"Rename File"
+			],
+			[
+				"file n",
+				"File: New File Relative to Current View"
+			],
+			[
+				"bra",
+				"Git: Checkout New Branch"
+			],
+			[
+				"dele",
+				"File: Delete"
+			],
+			[
+				"log",
+				"Git: Log"
+			],
+			[
+				"chec",
+				"Git: Checkout Current File"
+			],
+			[
+				"newf",
+				"File: New File Relative to Current View"
+			],
+			[
+				"check",
+				"Git: Checkout Current File"
+			],
+			[
+				"push",
+				"Git: Push"
+			],
+			[
+				"a",
+				"Git: Add Tag"
+			],
+			[
+				"tag",
+				"Git: Tag"
+			],
+			[
+				"qcf",
+				"Git: Quick Commit Current File"
+			],
+			[
+				"ope",
+				"Tasks: Open Link"
+			],
+			[
+				"gitt",
+				"Git: Add Tag"
+			],
+			[
+				"commit",
+				"Git: Commit"
+			],
+			[
+				"lo",
+				"Git: Log"
+			],
+			[
+				"stat",
+				"Git: Status"
+			],
+			[
+				"color",
+				"Color Picker"
+			],
+			[
+				"match",
+				"Jump to Matching Bracket"
+			],
+			[
+				"ame",
+				"Git: Amend Commit"
+			],
+			[
+				"qc",
+				"Git: Quick Commit Current File"
+			],
+			[
+				"cus",
+				"Git: Custom Command"
+			],
+			[
+				"remote",
+				"Git: Remote"
+			],
+			[
+				"git c",
+				"Git: Custom Command"
+			],
+			[
+				"ta",
+				"Git: Tag"
+			],
+			[
+				"fet",
+				"Git: Fetch"
+			],
+			[
+				"pull",
+				"Git: Pull"
+			],
+			[
+				"am",
+				"Git: Amend Commit"
+			],
+			[
+				"diff",
+				"Git: Diff Current File"
+			],
+			[
+				"syntax java",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"custom",
+				"Git: Custom Command"
+			],
+			[
+				"cehc",
+				"Git: Checkout Current File"
+			],
+			[
+				"merge",
+				"Git: Merge"
+			],
+			[
+				"ch",
+				"Git: Checkout Remote Branch"
+			],
+			[
+				"sta",
+				"Git: Status"
+			],
+			[
+				"gi",
+				"Git: Pull"
+			],
+			[
+				"dq",
+				"Debugger: Quit"
+			],
+			[
+				"do",
+				"Debugger: Open"
+			],
+			[
+				"debugg",
+				"Debugger: Add or Select Configuration"
+			],
+			[
+				"ds",
+				"Debugger: Start"
+			],
+			[
+				"sublimel",
+				"SublimeLinter: Quick Action"
+			],
+			[
+				"pacak",
+				"Package Control: Remove Package"
+			],
+			[
+				"unic",
+				"Unicode Character Insert: Show Panel"
+			],
+			[
+				"pul",
+				"Git: Pull Current Branch"
+			],
+			[
+				"git log",
+				"Git: Log"
+			],
+			[
+				"amen",
+				"Git: Amend Commit"
+			],
+			[
+				"pus",
+				"Git: Push"
+			],
+			[
+				"checkou",
+				"Git: Checkout"
+			],
+			[
+				"di",
+				"Git: Diff Current File"
+			],
+			[
+				"newfil",
+				"File: New File Relative to Project Root"
+			],
+			[
+				"new",
+				"Git: Checkout New Branch"
+			],
+			[
+				"cust",
+				"Git: Custom Command"
+			],
+			[
+				"checkout",
+				"Git: Checkout Current File"
+			],
+			[
+				"new ",
+				"Git: Checkout New Branch"
+			],
+			[
+				"git",
+				"Git: Checkout"
+			],
+			[
+				"st",
+				"Git: Status"
+			],
+			[
+				"pop",
+				"Git: Pop Stash"
+			],
+			[
+				"stas",
+				"Git: Stash"
+			],
+			[
+				"bran",
+				"Git: Checkout New Branch"
+			],
+			[
+				"de",
+				"Debugger: Input Command"
+			],
+			[
+				"d",
+				"Debugger: LLDB Display Options"
+			],
+			[
+				"stats",
+				"Git: Status"
+			],
+			[
+				"dc",
+				"Debugger: Input Command"
+			],
+			[
+				"deb",
+				"Debugger: Input Command"
+			],
+			[
+				"cu",
+				"Git: Custom Command"
+			],
+			[
+				"dif",
+				"Git: Diff Current File"
+			],
+			[
+				"psu",
+				"Git: Push"
+			],
+			[
+				"psuh",
+				"Git: Push"
+			],
+			[
+				"syn x",
+				"Set Syntax: XML"
+			],
+			[
+				"fol",
+				"Code Folding: Fold"
+			],
+			[
+				"unf",
+				"Code Folding: Unfold"
+			],
+			[
+				"c",
+				"Git: Commit"
+			],
+			[
+				"cod",
+				"Code Folding: Fold"
+			],
+			[
+				"pu",
+				"Git: Push"
+			],
+			[
+				"dic",
+				"Debugger: Input Command"
+			],
+			[
+				"o",
+				"Debugger: Open"
+			],
+			[
+				"push#",
+				"Git: Push"
+			],
+			[
+				"syn pug",
+				"Set Syntax: Pug"
+			],
+			[
+				"syn jad",
+				"Set Syntax: Jade"
+			],
+			[
+				"comm",
+				"Git: Quick Commit Current File"
+			],
+			[
+				"qmen",
+				"Git: Quick Commit Current File"
+			],
+			[
+				"mer",
+				"Git: Merge"
+			],
+			[
+				"powe",
+				"Set Syntax: PowerShell"
+			],
+			[
+				"t",
+				"Git: Tag"
+			],
+			[
+				"comma",
+				"Git: Custom Command"
+			],
+			[
+				"syn",
+				"Set Syntax: NSIS"
+			],
+			[
+				"git remote",
+				"Git: Remote"
+			],
+			[
+				"git show",
+				"Git: Show"
+			],
+			[
+				"git ",
+				"Git: Show"
+			],
+			[
+				"puh",
+				"Git: Push"
+			],
+			[
+				"commi",
+				"Git: Quick Commit Current File"
+			],
+			[
+				"qa",
+				"Git: Quick Add"
+			],
+			[
+				"javasc",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"me",
+				"Git: Merge"
+			],
+			[
+				"new br",
+				"Git: Checkout New Branch"
+			],
+			[
+				"watch",
+				"Debugger: Add Watch Expression"
+			],
+			[
+				"add",
+				"Git: Quick Add"
+			],
+			[
+				"ceh",
+				"Git: Checkout Commit"
+			],
+			[
+				"show",
+				"Git: Show"
+			],
+			[
+				"new bran",
+				"Git: Checkout New Branch"
+			],
+			[
+				"branches",
+				"Legit: Branches"
+			],
+			[
+				"swit",
+				"Legit: Switch"
+			],
+			[
+				"q",
+				"Git: Quick Add"
+			],
+			[
+				"new b",
+				"Git: Checkout New Branch"
+			],
+			[
+				"js",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"status",
+				"Git: Status"
+			],
+			[
+				"colo",
+				"Color Picker"
+			],
+			[
+				"scss",
+				"Set Syntax: SCSS"
+			],
+			[
+				"pug",
+				"Set Syntax: Pug"
+			],
+			[
+				"git stat",
+				"Git: Status"
+			],
+			[
+				"git swi",
+				"Legit: Switch"
+			],
+			[
+				"legit ",
+				"Legit: Branches"
+			],
+			[
+				"legit br",
+				"Legit: Branches"
+			],
+			[
+				"git branch",
+				"Legit: Branches"
+			],
+			[
+				"git swit",
+				"Git: Switch Repo"
+			],
+			[
+				"git ch",
+				"Legit: Switch"
+			],
+			[
+				"git br",
+				"Git: Checkout Remote Branch"
+			],
+			[
+				"git bra",
+				"Git: Checkout New Branch"
+			],
+			[
+				"git chec",
+				"Git: Checkout Current File"
+			],
+			[
+				"git comma",
+				"Git: Custom Command"
+			]
+		],
+		"width": 565.0
+	},
+	"console":
+	{
+		"height": 146.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/chris/Programmieren/object-selectors"
+	],
+	"file_history":
+	[
+		"/home/chris/Programmieren/quartersbrief/test/.eslintrc.json",
+		"/home/chris/Programmieren/quartersbrief/src/util/dotnotation.js",
+		"/home/chris/Programmieren/quartersbrief/src/model/modifier.js",
+		"/home/chris/Programmieren/quartersbrief/test/model/dataobject.spec.js",
+		"/home/chris/Programmieren/quartersbrief/Vagrantfile",
+		"/home/chris/Programmieren/quartersbrief/test/providers/gameobjectprovider.spec.js",
+		"/home/chris/Programmieren/quartersbrief/src/providers/gameobjectprovider-processors.js",
+		"/home/chris/Programmieren/quartersbrief/src/providers/gameobjectprovider.js",
+		"/home/chris/Programmieren/quartersbrief/test/mocha.conf.js",
+		"/home/chris/Programmieren/quartersbrief/package.json",
+		"/home/chris/Programmieren/quartersbrief/src/providers/procurer.js",
+		"/home/chris/Programmieren/quartersbrief/test/providers/procurer.spec.js",
+		"/home/chris/Programmieren/quartersbrief/src/providers/armorprovider.js",
+		"/home/chris/Programmieren/quartersbrief/test/providers/armorprovider.spec.js",
+		"/home/chris/Programmieren/quartersbrief/README.md",
+		"/home/chris/Programmieren/quartersbrief/test/providers/playerprovider.integration.spec.js",
+		"/home/chris/Programmieren/quartersbrief/src/util/wgapi.js",
+		"/home/chris/Programmieren/quartersbrief/test/providers/playerprovider.e2e.spec.js",
+		"/home/chris/Programmieren/quartersbrief/src/providers/playerprovider.js",
+		"/home/chris/Programmieren/quartersbrief/test/providers/playerprovider.spec.js",
+		"/home/chris/Programmieren/quartersbrief/src/model/ship.js",
+		"/home/chris/Programmieren/quartersbrief/dev/mock-gameparams.py",
+		"/home/chris/Programmieren/quartersbrief/test/update/update-labels.spec.js",
+		"/home/chris/Programmieren/quartersbrief/dev/mock-geometry.py",
+		"/home/chris/Programmieren/quartersbrief/dev/mock-labels.py",
+		"/home/chris/Programmieren/quartersbrief/res/www/js/io.js",
+		"/home/chris/Programmieren/quartersbrief/test/providers",
+		"/home/chris/Programmieren/quartersbrief/test/update/testdata/global.json",
+		"/home/chris/Programmieren/quartersbrief/test/update/update-gameparams.spec.js",
+		"/home/chris/Programmieren/quartersbrief/test/update/testdata/GameParams.json",
+		"/home/chris/Programmieren/quartersbrief/src/update/update-gameparams.js",
+		"/home/chris/Programmieren/quartersbrief/src/update/infra/steps.js",
+		"/home/chris/Programmieren/quartersbrief/dev/GameParams.py",
+		"/home/chris/Programmieren/quartersbrief/dev/pickletest.py",
+		"/home/chris/Programmieren/quartersbrief/test/update/testdata/GameParams.data",
+		"/home/chris/Programmieren/quartersbrief/test/update/testdata/GameParams.data.scr",
+		"/home/chris/Programmieren/quartersbrief/src/briefing/topics/armortopic.pug",
+		"/home/chris/Programmieren/quartersbrief/src/briefing/topics/pen_you/details.pug",
+		"/home/chris/Programmieren/quartersbrief/src/briefing/topics/pen_you/pen_you.pug",
+		"/home/chris/Programmieren/quartersbrief/src/briefing/topics/pen_me/pen_me.pug",
+		"/home/chris/Programmieren/quartersbrief/src/briefing/topics/overmatch_you/overmatch_you.pug",
+		"/home/chris/Programmieren/quartersbrief/src/briefing/topics/overmatch_you/details.pug",
+		"/home/chris/Programmieren/quartersbrief/src/briefing/topics/overmatch_me/overmatch_me.pug",
+		"/home/chris/Programmieren/quartersbrief/src/briefing/topics/pen_you/_details.scss",
+		"/home/chris/Programmieren/quartersbrief/src/quartersbrief.js",
+		"/home/chris/Programmieren/quartersbrief/src/armor/armorviewer.js",
+		"/home/chris/Programmieren/quartersbrief/test/briefing/topic.spec.js",
+		"/home/chris/Programmieren/quartersbrief/src/briefing/briefingbuilder.js",
+		"/home/chris/Programmieren/quartersbrief/src/briefing/topic.js",
+		"/home/chris/Programmieren/quartersbrief/src/core/briefingcontroller.js",
+		"/home/chris/Programmieren/quartersbrief/src/briefing/topics/_colors.scss",
+		"/home/chris/Programmieren/quartersbrief/src/init/config.js",
+		"/home/chris/Programmieren/quartersbrief/s.cjs",
+		"/home/chris/Programmieren/quartersbrief/src/briefing/topics/pen_me/_details.scss",
+		"/home/chris/Programmieren/quartersbrief/src/briefing/topics/overmatch_me/overmatch_me.js",
+		"/home/chris/Programmieren/quartersbrief/src/briefing/topics/overmatch_me/_gunlist.scss",
+		"/home/chris/Programmieren/quartersbrief/dev/vol/agendas/all.toml",
+		"/home/chris/Programmieren/quartersbrief/src/briefing/topics/pen_me/pen_me.scss",
+		"/home/chris/Programmieren/quartersbrief/src/briefing/topics/overmatch_me/_legend.scss",
+		"/home/chris/Programmieren/quartersbrief/src/briefing/topics/overmatch_me/overmatch_me.scss",
+		"/home/chris/Programmieren/quartersbrief/src/briefing/topics/hydro/hydro.pug",
+		"/home/chris/Programmieren/quartersbrief/src/briefing/topics/hydro/layout.js",
+		"/home/chris/Programmieren/quartersbrief/src/core/index.pug",
+		"/home/chris/Programmieren/quartersbrief/src/briefing/topics/overmatch_you/overmatch_you.scss",
+		"/home/chris/Programmieren/quartersbrief/src/briefing/topics/pen_you/pen_you.scss",
+		"/home/chris/Programmieren/quartersbrief/res/www/js/details.js",
+		"/home/chris/Programmieren/quartersbrief/src/briefing/topics/hydro/hydro.scss",
+		"/home/chris/Programmieren/quartersbrief/.github/workflows/release.yml",
+		"/home/chris/Programmieren/quartersbrief/src/briefing/briefing.pug",
+		"/home/chris/Programmieren/quartersbrief/src/briefing/briefing.scss",
+		"/home/chris/Programmieren/quartersbrief/test/model/module.spec.js",
+		"/home/chris/Programmieren/quartersbrief/src/model/module.js",
+		"/home/chris/Programmieren/quartersbrief/test/model/gameobjectfactory.spec.js",
+		"/home/chris/Programmieren/quartersbrief/src/model/gameobjectfactory.js",
+		"/home/chris/Programmieren/quartersbrief/src/model/battle.js",
+		"/home/chris/Programmieren/quartersbrief/test/briefing/briefingbuilder.spec.js",
+		"/home/chris/Programmieren/quartersbrief/test/core/briefingcontroller.integration.spec.js",
+		"/home/chris/Programmieren/quartersbrief/src/briefing/topics/torpedoes/torpedoes.js",
+		"/home/chris/Programmieren/quartersbrief/src/model/labeler.js",
+		"/home/chris/Programmieren/quartersbrief/res/www/js/init.js",
+		"/home/chris/Programmieren/quartersbrief/src/core/quartersbrief.scss",
+		"/home/chris/Programmieren/quartersbrief/src/armor/occlude.js",
+		"/home/chris/Programmieren/wowsparams/armor/armor3.mjs",
+		"/home/chris/Programmieren/wowsparams/armor/armor.mjs",
+		"/home/chris/Programmieren/quartersbrief/tmp/GSB008_Friedrich_der_Grosse_1940.svg",
+		"/home/chris/Programmieren/quartersbrief/tmp/JSB039_Yamato_1945 superstructure.svg",
+		"/home/chris/Programmieren/quartersbrief/tmp/GSB008_Friedrich_der_Grosse_1940 superstructure.svg",
+		"/home/chris/Programmieren/quartersbrief/tmp/armor2.js",
+		"/home/chris/Programmieren/quartersbrief/tmp/armor.js",
+		"/home/chris/Programmieren/quartersbrief/src/armor/recover.js",
+		"/home/chris/Programmieren/e/epsilon.js",
+		"/home/chris/Programmieren/quartersbrief/src/armor/occlude-worker.js",
+		"/home/chris/Programmieren/quartersbrief/tmp/fix.js",
+		"/home/chris/Programmieren/quartersbrief/tmp/epsilon.js",
+		"/home/chris/Programmieren/quartersbrief/src/core/agendacontroller.js",
+		"/home/chris/Programmieren/quartersbrief/.github/workflows/res/common/agendas/cacl.toml",
+		"/home/chris/Programmieren/quartersbrief/src/briefing/topics/pen_you/pen_you.js",
+		"/home/chris/Programmieren/quartersbrief/src/briefing/topics/pen_me/legend.pug",
+		"/home/chris/Programmieren/quartersbrief/src/briefing/topics/pen_me/_legend.scss",
+		"/home/chris/Programmieren/quartersbrief/src/briefing/topics/pen_me/_colors.scss",
+		"/home/chris/Programmieren/wowsparams/armor/project.mjs",
+		"/home/chris/Programmieren/wowsparams/armor/ply.js",
+		"/home/chris/Programmieren/quartersbrief/dev/grunt/todo.grunt.cjs",
+		"/home/chris/Programmieren/quartersbrief/src/briefing/message.scss",
+		"/home/chris/Programmieren/quartersbrief/dev/notes and todos/dispersion.note",
+		"/home/chris/Programmieren/quartersbrief/src/agendas/agenda.js",
+		"/home/chris/Programmieren/quartersbrief/src/briefing/topics/pen_me/_penlist.scss",
+		"/home/chris/Programmieren/quartersbrief/res/www/css/reset.css",
+		"/home/chris/Programmieren/quartersbrief/src/briefing/topics/overmatch_you/_details.scss",
+		"/home/chris/Programmieren/quartersbrief/.github/workflows/res/common/agendas/dd.toml",
+		"/home/chris/Programmieren/quartersbrief/src/briefing/topics/pen_me/pen_me.js",
+		"/home/chris/Programmieren/quartersbrief/.github/workflows/res/common/agendas/bb.toml",
+		"/home/chris/Programmieren/quartersbrief/src/briefing/topics/winrate/winrate.scss",
+		"/home/chris/Programmieren/quartersbrief/src/briefing/topics/winrate/details.pug",
+		"/home/chris/Programmieren/quartersbrief/src/briefing/topics/winrate/winrate.pug",
+		"/home/chris/Programmieren/quartersbrief/src/briefing/topics/winrate/_class-icon.scss",
+		"/home/chris/Programmieren/quartersbrief/src/briefing/topics/index.js",
+		"/home/chris/Programmieren/quartersbrief/test/agendas/compiler.spec.js",
+		"/home/chris/Programmieren/quartersbrief/test/agendas/agenda.spec.js",
+		"/home/chris/Programmieren/quartersbrief/src/agendas/compiler.js",
+		"/home/chris/Programmieren/quartersbrief/dev/gulp/test.gulp.js",
+		"/home/chris/Programmieren/quartersbrief/dev/gulp/bump.gulp.js",
+		"/home/chris/Programmieren/quartersbrief/gulpfile.js",
+		"/home/chris/Programmieren/quartersbrief/.github/workflows/res/debian/quartersbrief",
+		"/home/chris/Programmieren/quartersbrief/test/update/updater.spec.js",
+		"/home/chris/Programmieren/quartersbrief/.github/workflows/res/debian/prerm",
+		"/home/chris/Programmieren/quartersbrief/.github/workflows/res/debian/postinst",
+		"/home/chris/Programmieren/quartersbrief/dev/notes and todos/Specification extensible agendas.txt"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 111.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"selected": true,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"color_helper.scan":
+							{
+								"allow_scanning": false,
+								"color_class":
+								[
+									{
+										"class": "css-level-4",
+										"scopes": ""
+									}
+								],
+								"color_trigger": "(?xi)\n(?:\n    \\b(?<![-#&$])(?:\n        color\\((?!\\s*-)|(?:hsla?|(?:ok)?(?:lch|lab)|hwb|rgba?)\\(\n) |\n\\b(?<![-#&$])[\\w]{3,}(?![(-])\\b|(?<![&])\\#)\n",
+								"current_ext": null,
+								"current_syntax": "Text/Plain text",
+								"enabled": true,
+								"last_updated": 1694800489.57,
+								"scanning": "-comment"
+							},
+							"default_dir": "/home/chris/Programmieren/quartersbrief",
+							"git_gutter_is_enabled": false,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"stack_multiselect": false,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 48.4615384615
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.Debugger":
+	{
+		"height": 283.0
+	},
+	"output.Debugger Console":
+	{
+		"height": 236.0
+	},
+	"output.Protocol":
+	{
+		"height": 0.0
+	},
+	"output.Protocol(139638660297872)":
+	{
+		"height": 0.0
+	},
+	"output.Protocol(139707626576720)":
+	{
+		"height": 0.0
+	},
+	"output.Protocol(139752129582320)":
+	{
+		"height": 0.0
+	},
+	"output.Protocol(139782259008464)":
+	{
+		"height": 0.0
+	},
+	"output.Protocol(139784877581552)":
+	{
+		"height": 0.0
+	},
+	"output.Protocol(139790759826192)":
+	{
+		"height": 0.0
+	},
+	"output.Protocol(139805795306320)":
+	{
+		"height": 0.0
+	},
+	"output.Protocol(139969809636176)":
+	{
+		"height": 0.0
+	},
+	"output.Protocol(140027782423792)":
+	{
+		"height": 0.0
+	},
+	"output.Protocol(140051086854992)":
+	{
+		"height": 0.0
+	},
+	"output.Protocol(140077110584560)":
+	{
+		"height": 0.0
+	},
+	"output.Protocol(140191347530576)":
+	{
+		"height": 0.0
+	},
+	"output.Protocol(140195852395280)":
+	{
+		"height": 0.0
+	},
+	"output.Protocol(140200278283216)":
+	{
+		"height": 0.0
+	},
+	"output.Protocol(140208142427088)":
+	{
+		"height": 0.0
+	},
+	"output.Protocol(140252887176144)":
+	{
+		"height": 0.0
+	},
+	"output.Protocol(140287268447184)":
+	{
+		"height": 0.0
+	},
+	"output.Protocol(140292318831376)":
+	{
+		"height": 0.0
+	},
+	"output.Protocol(140365682566096)":
+	{
+		"height": 0.0
+	},
+	"output.Protocol(140414132937968)":
+	{
+		"height": 0.0
+	},
+	"output.Protocol(140437551227856)":
+	{
+		"height": 0.0
+	},
+	"output.Protocol(140470570262336)":
+	{
+		"height": 0.0
+	},
+	"output.Protocol(140606535906256)":
+	{
+		"height": 0.0
+	},
+	"output.Protocol(140609738763088)":
+	{
+		"height": 0.0
+	},
+	"output.Protocol(140623809406192)":
+	{
+		"height": 0.0
+	},
+	"output.Protocol(140655044056304)":
+	{
+		"height": 0.0
+	},
+	"output.SublimeLinter":
+	{
+		"height": 0.0
+	},
+	"output.SublimeLinter Messages":
+	{
+		"height": 102.0
+	},
+	"output.exec":
+	{
+		"height": 108.0
+	},
+	"output.find_results":
+	{
+		"height": 96.0
+	},
+	"output.git-checkout":
+	{
+		"height": 148.0
+	},
+	"output.git-commit":
+	{
+		"height": 148.0
+	},
+	"output.git-fetch":
+	{
+		"height": 102.0
+	},
+	"output.git-gc":
+	{
+		"height": 0.0
+	},
+	"output.git-init":
+	{
+		"height": 148.0
+	},
+	"output.git-merge":
+	{
+		"height": 118.0
+	},
+	"output.git-pull":
+	{
+		"height": 130.0
+	},
+	"output.git-push":
+	{
+		"height": 148.0
+	},
+	"output.git-remote":
+	{
+		"height": 118.0
+	},
+	"output.git-tag":
+	{
+		"height": 102.0
+	},
+	"output.jotter":
+	{
+		"height": 108.0
+	},
+	"output.latextools":
+	{
+		"height": 136.769226074
+	},
+	"output.legit-harvest":
+	{
+		"height": 96.0
+	},
+	"output.legit-switch":
+	{
+		"height": 96.0
+	},
+	"output.mdpopups":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "object-selectors.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"dotno",
+				"src/util/dotnotation.js"
+			],
+			[
+				"modif",
+				"src/model/modifier.js"
+			],
+			[
+				"moc",
+				"test/mocha.conf.js"
+			],
+			[
+				"packa",
+				"package.json"
+			],
+			[
+				"mocha",
+				"test/mocha.conf.js"
+			],
+			[
+				"data",
+				"test/model/dataobject.spec.js"
+			],
+			[
+				".eslin",
+				"test/.eslintrc.json"
+			],
+			[
+				"va",
+				"Vagrantfile"
+			],
+			[
+				"proc",
+				"src/providers/procurer.js"
+			],
+			[
+				"procu",
+				"test/providers/procurer.spec.js"
+			],
+			[
+				"game",
+				"test/model/gameobjectfactory.spec.js"
+			],
+			[
+				"readm",
+				"README.md"
+			],
+			[
+				"pla",
+				"test/providers/playerprovider.integration.spec.js"
+			],
+			[
+				"pro",
+				"src/providers/procurer.js"
+			],
+			[
+				"wgapi",
+				"src/util/wgapi.js"
+			],
+			[
+				"ship",
+				"src/model/ship.js"
+			],
+			[
+				"io",
+				"res/www/js/io.js"
+			],
+			[
+				"player",
+				"test/providers/playerprovider.spec.js"
+			],
+			[
+				"vagrant",
+				"Vagrantfile"
+			],
+			[
+				"upda",
+				"test/update/update-gameparams.spec.js"
+			],
+			[
+				"mock",
+				"dev/mock-geometry.py"
+			],
+			[
+				"upda-ga",
+				"test/update/update-gameparams.spec.js"
+			],
+			[
+				"gamepa",
+				"dev/GameParams.py"
+			],
+			[
+				"update",
+				"src/update/update-gameparams.js"
+			],
+			[
+				"ste",
+				"src/update/infra/steps.js"
+			],
+			[
+				"step",
+				"src/update/infra/steps.js"
+			],
+			[
+				"gamepara",
+				"test/update/testdata/GameParams.data.scr"
+			],
+			[
+				"deta",
+				"src/briefing/topics/pen_you/details.pug"
+			],
+			[
+				"pen",
+				"src/briefing/topics/pen_you/pen_you.pug"
+			],
+			[
+				"over",
+				"src/briefing/topics/overmatch_you/overmatch_you.pug"
+			],
+			[
+				"overmat",
+				"src/briefing/topics/overmatch_you/overmatch_you.pug"
+			],
+			[
+				"overm",
+				"src/briefing/topics/overmatch_you/overmatch_you.pug"
+			],
+			[
+				"page",
+				"package.json"
+			],
+			[
+				"vagra",
+				"Vagrantfile"
+			],
+			[
+				"readme",
+				"README.md"
+			],
+			[
+				"qua",
+				"src/quartersbrief.js"
+			],
+			[
+				"armor",
+				"src/armor/armorviewer.js"
+			],
+			[
+				"pack",
+				"package.json"
+			],
+			[
+				"color",
+				"src/briefing/topics/_colors.scss"
+			],
+			[
+				"pen_m",
+				"src/briefing/topics/pen_me/pen_me.scss"
+			],
+			[
+				"ove",
+				"src/briefing/topics/overmatch_me/overmatch_me.js"
+			],
+			[
+				"gunli",
+				"src/briefing/topics/overmatch_me/_gunlist.scss"
+			],
+			[
+				"leg",
+				"src/briefing/topics/overmatch_me/_legend.scss"
+			],
+			[
+				"index.p",
+				"src/core/index.pug"
+			],
+			[
+				"hy",
+				"src/briefing/topics/hydro/hydro.pug"
+			],
+			[
+				"layou",
+				"src/briefing/topics/hydro/layout.js"
+			],
+			[
+				"vagran",
+				"Vagrantfile"
+			],
+			[
+				"pen_y",
+				"src/briefing/topics/pen_you/pen_you.scss"
+			],
+			[
+				"relea",
+				".github/workflows/release.yml"
+			],
+			[
+				"briefin",
+				"src/briefing/briefingbuilder.js"
+			],
+			[
+				"briefingb",
+				"src/briefing/briefingbuilder.js"
+			],
+			[
+				"briefing",
+				"test/core/briefingcontroller.integration.spec.js"
+			],
+			[
+				"module",
+				"test/model/module.spec.js"
+			],
+			[
+				"modules",
+				"src/model/module.js"
+			],
+			[
+				"tor",
+				"src/briefing/topics/torpedoes/torpedoes.js"
+			],
+			[
+				"",
+				"src/briefing/briefing.pug"
+			],
+			[
+				"battle",
+				"src/model/battle.js"
+			],
+			[
+				"in",
+				"res/www/js/init.js"
+			],
+			[
+				"inde",
+				"src/core/index.pug"
+			],
+			[
+				"pac",
+				"package.json"
+			],
+			[
+				"occ",
+				"src/armor/occlude.js"
+			],
+			[
+				"brief",
+				"src/briefing/briefing.scss"
+			],
+			[
+				"occl",
+				"src/armor/occlude-worker.js"
+			],
+			[
+				"rec",
+				"src/armor/recover.js"
+			],
+			[
+				"agendac",
+				"src/core/agendacontroller.js"
+			],
+			[
+				"agen",
+				"src/agendas/agenda.js"
+			],
+			[
+				"compil",
+				"test/agendas/compiler.spec.js"
+			],
+			[
+				"push",
+				".github/workflows/tagpush.json"
+			],
+			[
+				"all.",
+				"config/agendas/all.toml"
+			],
+			[
+				"occlud",
+				"test/armor/occlude.spec.js"
+			],
+			[
+				"recover.j",
+				"src/armor/recover.js"
+			],
+			[
+				"occlude-",
+				"test/armor/testdata/occlude-subject.json"
+			],
+			[
+				"view-f",
+				"src/armor/view-from.js"
+			],
+			[
+				"occlude.s",
+				"test/armor/occlude.spec.js"
+			],
+			[
+				"recov",
+				"test/armor/recover.spec.js"
+			],
+			[
+				"updat",
+				"src/update/updater.js"
+			],
+			[
+				"armorv",
+				"test/armor/armorviewer.spec.js"
+			],
+			[
+				"seattle",
+				"data/armor/ASC022_Seattle_1945.json"
+			],
+			[
+				"Seatt",
+				"data/armor/ASC022_Seattle_1945.json"
+			],
+			[
+				"revc",
+				"src/armor/recover.js"
+			],
+			[
+				"sublime",
+				"quartersbrief.sublime-project"
+			],
+			[
+				"proj",
+				"quartersbrief.sublime-project"
+			],
+			[
+				"specif",
+				"src/briefing/specificitystrategy.js"
+			],
+			[
+				"agenda",
+				"src/briefing/agenda.js"
+			],
+			[
+				"index.pug",
+				"src/core/index.pug"
+			],
+			[
+				"quart.scs",
+				"src/core/quartersbrief.scss"
+			],
+			[
+				"briefing.sc",
+				"src/briefing/briefing.scss"
+			],
+			[
+				"briefing.p",
+				"src/briefing/briefing.pug"
+			],
+			[
+				"quarters",
+				"src/quartersbrief.js"
+			],
+			[
+				"index.pu",
+				"src/core/index.pug"
+			],
+			[
+				"quarter.scss",
+				"src/core/quartersbrief.scss"
+			],
+			[
+				"briefingmaker",
+				"test/core/briefingmaker.integration.spec.js"
+			],
+			[
+				"briefingm",
+				"test/core/briefingmaker.spec.js"
+			],
+			[
+				"io.j",
+				"res/www/js/io.js"
+			],
+			[
+				"topi",
+				"src/briefing/topic.js"
+			],
+			[
+				"topic",
+				"src/briefing/topic.js"
+			],
+			[
+				"briefingmaker.in",
+				"test/core/briefingmaker.integration.spec.js"
+			],
+			[
+				"topic-",
+				"src/briefing/topic-filters.js"
+			],
+			[
+				"topic.spec",
+				"test/briefing/topic.spec.js"
+			],
+			[
+				"consum",
+				"src/model/consumable.js"
+			],
+			[
+				"dataob",
+				"test/model/dataobject.spec.js"
+			],
+			[
+				"radar",
+				"src/briefing/topics/radar/radar.js"
+			],
+			[
+				"ship.spec",
+				"test/model/ship.spec.js"
+			],
+			[
+				"dotn",
+				"src/util/dotnotation.js"
+			],
+			[
+				"gameobjectf",
+				"test/model/gameobjectfactory.spec.js"
+			],
+			[
+				"gameobjec",
+				"test/model/gameobject.spec.js"
+			],
+			[
+				"gameobj",
+				"test/model/gameobject.spec.js"
+			],
+			[
+				"gameo",
+				"test/model/gameobject.spec.js"
+			],
+			[
+				"kni",
+				"src/briefing/topics/knifefighting/knifefighting.js"
+			],
+			[
+				"stat",
+				"node_modules/readdir-enhanced/lib/stat.js"
+			],
+			[
+				"jsdo",
+				"grunt/jsdoc.grunt.cjs"
+			],
+			[
+				"modifier.spe",
+				"test/model/modifier.spec.js"
+			],
+			[
+				"camou",
+				"src/model/camouflage.js"
+			],
+			[
+				"dot",
+				"test/util/dotnotation.spec.js"
+			],
+			[
+				"briefingmak",
+				"src/core/briefingmaker.js"
+			],
+			[
+				"age",
+				"src/briefing/agenda.js"
+			],
+			[
+				"cons",
+				"src/model/consumable.js"
+			],
+			[
+				"ship.sp",
+				"test/model/ship.spec.js"
+			],
+			[
+				"ush",
+				"docs/src_util_shipbuilder.js.html"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 646.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/Programmieren/quartersbrief.github.io/quartersbrief.github.io.sublime-project"
+			]
+		],
+		"width": 570.0
+	},
+	"select_symbol":
+	{
+		"height": 229.0,
+		"last_filter": "equip",
+		"selected_items":
+		[
+			[
+				"equip",
+				"equipModules"
+			]
+		],
+		"width": 652.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 285.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
