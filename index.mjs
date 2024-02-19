@@ -20,10 +20,29 @@ try {
   const target = yaml.parse(_file)
   core.debug(`object ${JSON.stringify(target)}`)
   core.debug(`set ${key} to ${value}`)
-  set(key,target, value)
+  set(key, target, value)
   const targetYamlStr = yaml.stringify(target, 2)
-  fs.writeFileSync(file,targetYamlStr)
-  
+  fs.writeFileSync(file, targetYamlStr)
+  io.which('git').then(git => {
+    exec.exec(git, ['config', 'user.name', 'github-actions']).then(() => {
+      return exec.exec(git, ['config', 'user.email', 'github-actions@github.com'])
+    }).then(() => {
+      return exec.exec(git, ['add', '.'])
+    }).then(() => {
+      return exec.exec(git, ['commit', '-m', `set ${key} to ${value}`])
+    }).then(() => {
+      const basicCredential = Buffer.from(
+        `x-access-token:${token}`,
+        'utf8'
+      ).toString('base64')
+      return exec.exec(['config', '--global', `http.https://github.com/.extraheader`, `AUTHORIZATION: basic ${basicCredential}`])
+
+    }).then(() => {
+
+      return exec.exec(git, ['push'])
+    })
+  })
+
 } catch (error) {
   core.setFailed(error.message);
 }
