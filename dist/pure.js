@@ -11267,7 +11267,7 @@ function set(selector, obj, value2, options) {
 }
 
 // pure.mjs
-import_args.default.option("file", "target file").option("key", "key selector").command("value", "replace text");
+import_args.default.option("file", "target file").option("key", "key selector").option("value", "replace text");
 var { file, key, value } = import_args.default.parse(process.argv);
 var _file = import_node_fs.default.readFileSync(file, "utf8");
 var target = import_yaml.default.parse(_file);

@@ -7,7 +7,7 @@ import { set } from 'object-selectors';
 args
     .option('file', 'target file')
     .option('key', 'key selector')
-    .command('value', 'replace text',)
+    .option('value', 'replace text',)
 
 const { file, key, value } = args.parse(process.argv)
 
