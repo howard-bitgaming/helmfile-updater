@@ -1,16 +1,10 @@
 import * as core from '@actions/core'
-import * as github from '@actions/github';
 import * as exec from '@actions/exec';
 import * as io from '@actions/io';
-import * as toolCache from '@actions/tool-cache';
 import fs from 'node:fs'
-import path from 'node:path'
-import { execSync } from 'node:child_process'
-import { set } from 'object-selectors';
 import yaml from 'yaml';
 
 const token = core.getInput('token')
-const octokit = new github.getOctokit(token)
 const file = core.getInput('file');
 const key = core.getInput('key');
 const value = core.getInput('value');
@@ -20,7 +14,13 @@ try {
   const target = yaml.parse(_file)
   core.debug(`object ${JSON.stringify(target)}`)
   core.debug(`set ${key} to ${value}`)
-  set(key, target, value)
+
+  const found = target.releases.find(({ name }) => name === key);
+  if (!found) throw new Error('Key Error')
+  const tagObject = found.set.find(({ name }) => name === 'image.tag');
+  if (!tagObject) throw new Error('cant find image.tag')
+  tagObject.value = value
+
   const targetYamlStr = yaml.stringify(target, 2)
   fs.writeFileSync(file, targetYamlStr)
   io.which('git').then(git => {
@@ -35,7 +35,7 @@ try {
         `x-access-token:${token}`,
         'utf8'
       ).toString('base64')
-      return exec.exec(git,['config', '--local', `http.https://github.com/.extraheader`, `AUTHORIZATION: basic ${basicCredential}`])
+      return exec.exec(git, ['config', '--local', `http.https://github.com/.extraheader`, `AUTHORIZATION: basic ${basicCredential}`])
 
     }).then(() => {
 

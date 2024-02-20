@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build:pure":"esbuild pure.mjs --platform=node --bundle --outdir=dist"
+    "build:pure": "esbuild pure.mjs --platform=node --bundle --outdir=dist"
   },
   "keywords": [],
   "author": "",
@@ -18,7 +18,6 @@
     "@actions/tool-cache": "^2.0.1",
     "args": "^5.0.3",
     "esbuild": "^0.20.1",
-    "object-selectors": "^2.3.0",
     "yaml": "^2.3.4"
   }
 }
