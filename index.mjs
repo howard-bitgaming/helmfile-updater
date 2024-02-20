@@ -27,7 +27,7 @@ try {
     exec.exec(git, ['config', 'user.name', 'github-actions']).then(() => {
       return exec.exec(git, ['config', 'user.email', 'github-actions@github.com'])
     }).then(() => {
-      return exec.exec(git, ['add', '.'])
+      return exec.exec(git, ['add', file])
     }).then(() => {
       return exec.exec(git, ['commit', '-m', `set ${key} to ${value}`])
     }).then(() => {
