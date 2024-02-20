@@ -25,6 +25,6 @@ jobs:
         with:
           token: ${{secrets.TEST_TOKEN}}
           file: './folder/sub/helmfile.yaml'
-          key: 'releases.*[name $= frontend].set.*[name $= tag].value'
+          key: 'fastpack-web-frontend'
           value: '123.445.22'
 ```
