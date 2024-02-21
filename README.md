@@ -2,9 +2,6 @@
 * commit auth token
 * after actions/checkout
 
-## Key setting
-
-[object-selectors](https://www.npmjs.com/package/object-selectors#examples)
 
 ## Example usage
 
